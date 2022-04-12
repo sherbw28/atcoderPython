@@ -1,0 +1,16 @@
+python3 answer.py < input.txt
+b,c = map(int,input().split())
+a = list(map(int, input().split()))
+s, t = input().split() "文字列を分けて格納"
+s = list(input()) "abcdeを文字列ではなくリストとして受け取ることもできます。"
+g = [list(input()) for i in range(n)]  # n は行数
+a = [3, 1, 4, 1, 5]  print(*a)  また、リストの中身を空白区切りで出力したい場合は以下のようなこともできます。この際も区切り文字を指定できます。
+a.index(1) list.index(x) で要素 x が list の中で何番目にあるか返ってくる（複数ある場合は最小のもの）
+a.count(1) list.count(x) で要素 x が list 内にいくつあるかが返ってくる
+set 重複をなくす　in演算子でtrueチェック
+abs() 数値の絶対値が返ってくる
+exit()　プログラムを途中で終了できる
+max()　最大値を出力
+min()　最小値を出力
+sorted()　リストの並び替えができる
+sum() リストの中の合計値が返ってくる
