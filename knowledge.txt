@@ -14,3 +14,5 @@ max()　最大値を出力
 min()　最小値を出力
 sorted()　リストの並び替えができる
 sum() リストの中の合計値が返ってくる
+import sys
+input = sys.stdin.readline
